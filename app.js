@@ -20,7 +20,16 @@ module.exports={
       
     },
     get:function(a){
-        
+      var result;
+      for(var i=0;i<array.length;i++)
+      {
+         if(array[i]==a)
+         {
+            result=array1[i]
+            break
+         }
+      }
+      return result;
     },
     size:function(){
         return array.length
