@@ -2,6 +2,10 @@
     "name": "data-storage-secure",
     "version": "1.0.0",
     "description": "",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Rishavrishu-creator/data-storage-secure.git"
+    },
     "main": "app.js",
     "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
