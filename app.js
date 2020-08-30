@@ -5,7 +5,7 @@ module.exports={
       try{
       for(var i=0;i<array.length;i++)
       {
-        if(array1[i]==a)
+        if(array[i]==a)
         {
           throw "Sorry this value already exists"
           break;
