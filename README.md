@@ -1,5 +1,5 @@
 # data-storage-secure
-# This is a local storage data package similar to session...
+# This is a local storage data package similar to session..(It stores data in an array)
 ## Security of the data will be done later...
 ## var data = require('data-storage-secure')
 # How to store data?
