@@ -2,22 +2,17 @@ var array=[]
 var array1=[]
 module.exports={
     store:function(a,b){
-      if(b=="null" || b==null)
-      {
-        console.log("Sorry you cannot enter null as value")
-        return
-      }
       array.push(a)
       array1.push(b)
     },
     value:function(i){
       if(array1.length>i)
-{
-   return array1[i]
-}
-else{
-  return null;
-}
+      {
+         return array1[i]
+      }
+      else{
+          return null;
+      }
     },
     delete:function(a){
       for(var i=0;i<array.length;i++)
