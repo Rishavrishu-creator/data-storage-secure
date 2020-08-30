@@ -5,15 +5,6 @@ module.exports={
       array.push(a)
       array1.push(b)
     },
-    value:function(i){
-      if(array1.length>i)
-      {
-         return array1[i]
-      }
-      else{
-          return null;
-      }
-    },
     delete:function(a){
       for(var i=0;i<array.length;i++)
       {
@@ -26,7 +17,8 @@ module.exports={
       }
     },
     clear:function(){
-      
+      array1=[]
+      array=[]
     },
     get:function(a){
       var result=null;
@@ -49,5 +41,14 @@ module.exports={
     },
     size:function(){
         return array.length
+    },
+    value:function(i){
+      if(array1.length>i)
+      {
+         return array1[i]
+      }
+      else{
+          return null;
+      }
     }
 }
