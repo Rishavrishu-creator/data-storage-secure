@@ -20,7 +20,7 @@ module.exports={
       
     },
     get:function(a){
-      var result;
+      var result=null;
       for(var i=0;i<array.length;i++)
       {
          if(array[i]==a)
@@ -29,7 +29,14 @@ module.exports={
             break
          }
       }
+      if(result==null)
+      {
+        return null
+      }
+      else{
       return result;
+      }
+      
     },
     size:function(){
         return array.length
