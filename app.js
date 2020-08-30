@@ -2,7 +2,7 @@ var array=[]
 var array1=[]
 module.exports={
     store:function(a,b){
-      if(b=="null")
+      if(b=="null" || b==null)
       {
         console.log("Sorry you cannot enter null as value")
         return
