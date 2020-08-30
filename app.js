@@ -2,6 +2,11 @@ var array=[]
 var array1=[]
 module.exports={
     store:function(a,b){
+      if(b=="null")
+      {
+        console.log("Sorry you cannot enter null as value")
+        return
+      }
       array.push(a)
       array1.push(b)
     },
@@ -36,7 +41,7 @@ module.exports={
       else{
       return result;
       }
-      
+
     },
     size:function(){
         return array.length
