@@ -2,7 +2,21 @@ var array=[]
 var array1=[]
 module.exports={
     store:function(a,b){
-      array.push(a)
+      try{
+      for(var i=0;i<array.length;i++)
+      {
+        if(array1[i]==a)
+        {
+          throw "Sorry this value already exists"
+          break;
+        }
+      }
+    }
+    catch(e)
+    {
+      console.log(e)
+    }
+    array.push(a)
       array1.push(b)
     },
     delete:function(a){
