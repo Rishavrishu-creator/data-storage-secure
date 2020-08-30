@@ -2,11 +2,13 @@ var array=[]
 var array1=[]
 module.exports={
     store:function(a,b){
+      var t=0;
       try{
       for(var i=0;i<array.length;i++)
       {
         if(array[i]==a)
         {
+          t=1;
           throw "Sorry this value already exists"
           break;
         }
@@ -16,8 +18,16 @@ module.exports={
     {
       console.log(e)
     }
-    array.push(a)
+    if(t==0)
+    {
+      array.push(a)
       array1.push(b)
+    }
+    else
+    {
+         t=0;
+    }
+  
     },
     delete:function(a){
       for(var i=0;i<array.length;i++)
