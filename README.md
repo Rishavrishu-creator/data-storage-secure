@@ -27,4 +27,4 @@
 ## data.delete("key")
 ##
 ## How to get value of a key if the index of key in array is known?
-## data.value("<key>")
+## data.value("key")
