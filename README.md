@@ -1,4 +1,10 @@
 # data-storage-secure
+*** If any problem please file an issue in github ***
+*** I am ready to work in group projects to build products ***
+*** Email: rishavrishu2001.ra@gmail.com mobile: 6289712990(INDIA) ***
+
+
+
 # This is a local storage data package similar to session..(It stores data in an array)
 ## Security of the data will be done later...
 ## var data = require('data-storage-secure')
